@@ -1,0 +1,33 @@
+{
+	"type": "record",
+	"name": "Interactions",
+	"namespace": "com.amazonaws.personalize.schema",
+	"fields": [
+		{
+			"name": "ITEM_ID",
+			"type": "string"
+		},
+		{
+			"name": "USER_ID",
+			"type": "string"
+		},
+		{
+			"name": "TIMESTAMP",
+			"type": "long"
+		},
+		{
+			"name": "CABIN_TYPE",
+			"type": "string",
+			"categorical": true
+		},
+		{
+			"name": "EVENT_VALUE",
+			"type": "float"
+		},
+		{
+			"name": "EVENT_TYPE",
+			"type": "string"
+		}
+	],
+	"version": "1.0"
+}
